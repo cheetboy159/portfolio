@@ -10,6 +10,9 @@ body{
     z-index: -1;
 
 }
+img{
+    z-index: 1;
+}
 h1, p{
     color:white;
     margin-left: 60px;
