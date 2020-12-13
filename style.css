@@ -5,7 +5,7 @@
 
 
 body{
-    background-image: url("/assets/img3.jpg") ;
+    background-image: url("/assets/background.jpg") ;
     background-size: cover;
 
 }
@@ -14,12 +14,19 @@ h1, p{
     margin-left: 60px;
 
 }
+h1{
+    font-size: 300px;
+    padding-bottom: 70px;
+}
+h2{
+    font-size: 45px !important; 
+}
 p{
     font-size: 30px;
 }
 
 a{
-    color:white !important;
+    /* color:white !important; */
     padding: 20px !important;
     margin-left: 40px;
     font-size: 40px !important;
