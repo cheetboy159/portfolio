@@ -1,3 +1,26 @@
 /* body{
     background: black;
 } */
+
+
+
+body{
+    background-image: url("/assets/img3.jpg") ;
+    background-size: cover;
+
+}
+h1, p{
+    color:white;
+    margin-left: 60px;
+
+}
+p{
+    font-size: 30px;
+}
+
+a{
+    color:white !important;
+    padding: 20px !important;
+    margin-left: 40px;
+    font-size: 40px !important;
+}
