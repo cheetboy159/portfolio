@@ -6,7 +6,7 @@
 
 figure {
 
-    background-image: url('/assets/background.jpg');
+    background-image: url('./assets/background.jpg');
     background-size: cover;
     height: 2000px;
     z-index: -1;
