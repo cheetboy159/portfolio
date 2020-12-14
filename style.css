@@ -11,7 +11,13 @@ figure {
     height: 2000px;
     z-index: -1;
     width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0%;
 
+}
+.bg-color{
+    background-color: #364E60 ;
+   
 }
 img{
     z-index: 1;
@@ -27,14 +33,20 @@ h1{
 }
 h2{
     font-size: 45px !important; 
+    color:white !important;
 }
 p{
     font-size: 30px;
 }
 
+
 a{
-    /* color:white !important; */
+    color:white !important;
     padding: 20px !important;
     margin-left: 40px;
     font-size: 40px !important;
+}
+footer{
+    padding-top: 0px;
+    margin-top: 0%;
 }
