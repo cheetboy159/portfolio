@@ -8,7 +8,7 @@ figure {
 
     background-image: url('./assets/background.jpg');
     background-size: cover;
-    height: 1697px;
+    height: 1080px;
     z-index: -1;
     width: 100%;
     padding-bottom: 0px;
@@ -19,12 +19,10 @@ figure {
     background-color: #364E60 ;
    
 }
-img{
-    z-index: 1;
-}
+/*  */
 h1, p{
     color:white;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 
 }
 h1{
@@ -34,6 +32,7 @@ h1{
 h2{
     font-size: 45px !important; 
     color:white !important;
+    margin-left: 30px;
 }
 p{
     font-size: 30px;
@@ -42,11 +41,17 @@ p{
 
 a{
     color:white !important;
-    padding: 20px !important;
-    margin-left: 40px;
+    margin-left: 50px;
     font-size: 40px !important;
 }
-footer{
-    padding-top: 0px;
-    margin-top: 0%;
+
+
+@media screen and (max-width: 768px)
+{
+
+}
+
+
+@media screen and (min-width: 768px){
+
 }
