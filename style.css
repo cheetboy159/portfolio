@@ -4,11 +4,13 @@
 @media screen and (max-width: 768px)
 {
     figure {
-        background-color: black;
+        /* background-color: black; */
+        background-image: url('./assets/background.jpg');
         /* background-image: url('./assets/background.jpg'); */
         background-size: cover;
+        background-position-x: center;
         position: relative;
-        height: 700px;
+        height: 900px;
         z-index: -1;
         width: 100%;
         padding-bottom: 0px;
@@ -26,7 +28,7 @@
     
     }
     h1{
-        font-size: 100px;
+        font-size: 50px;
         padding-bottom: 20px;
     }
     h2{
@@ -35,12 +37,15 @@
         margin-left: 10px;
     }
     p{
-        font-size: 10px;
+        font-size: 15px;
+
     }
     a{
         color:white !important;
-        margin-left: 50px;
-        font-size: 30px !important;
+        margin-left: 10px;
+        font-size: 15px !important;
+        padding-left: 0px;
+
     }
     
 }
@@ -50,7 +55,7 @@
     figure {
 
         background-image: url('./assets/background.jpg');
-        background-size: cover;
+        background-size: contain;
         position: relative;
         height: 1080px;
         z-index: -1;
