@@ -1,57 +1,90 @@
 /* body{
     background: black;
 } */
-
-
-
-figure {
-
-    background-image: url('./assets/background.jpg');
-    background-size: cover;
-    height: 1080px;
-    z-index: -1;
-    width: 100%;
-    padding-bottom: 0px;
-    margin-bottom: 0%;
-
-}
-.bg-color{
-    background-color: #364E60 ;
-   
-}
-/*  */
-h1, p{
-    color:white;
-    /* margin-left: 60px; */
-
-}
-h1{
-    font-size: 300px;
-    padding-bottom: 70px;
-}
-h2{
-    font-size: 45px !important; 
-    color:white !important;
-    margin-left: 30px;
-}
-p{
-    font-size: 30px;
-}
-
-
-a{
-    color:white !important;
-    margin-left: 50px;
-    font-size: 40px !important;
-}
-
-
 @media screen and (max-width: 768px)
 {
-
+    figure {
+        background-color: black;
+        /* background-image: url('./assets/background.jpg'); */
+        background-size: cover;
+        position: relative;
+        height: 700px;
+        z-index: -1;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0%;
+    
+    }
+    .bg-color{
+        background-color: #364E60 ;
+       
+    }
+    /*  */
+    h1, p{
+        color:white;
+        /* margin-left: 60px; */
+    
+    }
+    h1{
+        font-size: 100px;
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 20px !important; 
+        color:white !important;
+        margin-left: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    a{
+        color:white !important;
+        margin-left: 50px;
+        font-size: 30px !important;
+    }
+    
 }
 
 
 @media screen and (min-width: 768px){
+    figure {
 
+        background-image: url('./assets/background.jpg');
+        background-size: cover;
+        position: relative;
+        height: 1080px;
+        z-index: -1;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 0%;
+    
+    }
+    .bg-color{
+        background-color: #364E60 ;
+       
+    }
+    /*  */
+    h1, p{
+        color:white;
+        /* margin-left: 60px; */
+    
+    }
+    h1{
+        font-size: 300px;
+        padding-bottom: 70px;
+    }
+    h2{
+        font-size: 45px !important; 
+        color:white !important;
+        margin-left: 30px;
+    }
+    p{
+        font-size: 30px;
+    }
+    a{
+        color:white !important;
+        margin-left: 50px;
+        font-size: 40px !important;
+    }
+    
 }
