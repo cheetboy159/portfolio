@@ -1,21 +1,19 @@
-/* body{
-    background: black;
-} */
+/* poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+/* Phone */
 @media screen and (max-width: 768px)
 {
-    figure {
+    body {
         /* background-color: black; */
         background-image: url('./assets/background.jpg');
         /* background-image: url('./assets/background.jpg'); */
-        background-size: cover;
-        background-position-x: center;
-        position: relative;
-        height: 900px;
+        background-size: auto;
+        background-repeat: space;
+        background-position: center;
+        height: 800px;
         z-index: -1;
         width: 100%;
-        padding-bottom: 0px;
-        margin-bottom: 0%;
-    
+      
     }
     .bg-color{
         background-color: #364E60 ;
@@ -33,12 +31,12 @@
     }
     h2{
         font-size: 20px !important; 
-        color:white !important;
+        color:rgb(64, 71, 83) !important;
         margin-left: 10px;
     }
     p{
+        
         font-size: 15px;
-
     }
     a{
         color:white !important;
@@ -49,19 +47,18 @@
     }
     
 }
-
-
+/* tablet */
 @media screen and (min-width: 768px){
-    figure {
-
+    body {
+        /* background-color: lawngreen; */
         background-image: url('./assets/background.jpg');
-        background-size: contain;
-        position: relative;
-        height: 1080px;
-        z-index: -1;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* height: 1580px; */
         width: 100%;
-        padding-bottom: 0px;
-        margin-bottom: 0%;
+        /* padding-bottom: 0px; */
+        
     
     }
     .bg-color{
@@ -93,3 +90,49 @@
     }
     
 }
+/* full page */
+@media screen and (min-width: 1680px){
+    body {
+        /* background-color: lemonchiffon; */
+        background-image: url('./assets/background.jpg');
+        background-size: auto;
+        background-position: center;
+        background-repeat: round;
+        height: 100%;
+        width: 100%;
+    
+    }
+    .bg-color{
+        background-color: #364E60 ;
+       
+    }
+    /*  */
+    h1, p{
+        color:rgb(255, 255, 255);
+        font-family: sans-serif;
+        /* margin-left: 60px; */
+    
+    }
+    h1{
+        font-size: 150px;
+        padding-bottom: 70px;
+    }
+    h2{
+        font-size: 45px !important; 
+        color:rgb(102, 138, 149) !important;
+        margin-left: 30px;
+        font-family: 'Poppins' ;
+    }
+    p{
+        font-size: 30px;
+    }
+    a{
+        color:white !important;
+        margin-left: 50px;
+        font-size: 40px !important;
+    }
+    
+}
+/* footer{
+    float: bottom;
+} */
