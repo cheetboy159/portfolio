@@ -7,8 +7,8 @@
         /* background-color: black; */
         background-image: url('./assets/background.jpg');
         /* background-image: url('./assets/background.jpg'); */
-        background-size: auto;
-        background-repeat: space;
+        background-size: contain;
+        background-repeat: no-repeat;
         background-position: center;
         height: 800px;
         z-index: -1;
@@ -52,10 +52,10 @@
     body {
         /* background-color: lawngreen; */
         background-image: url('./assets/background.jpg');
-        background-size: auto;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        /* height: 1580px; */
+        height: 1580px;
         width: 100%;
         /* padding-bottom: 0px; */
         
@@ -95,9 +95,9 @@
     body {
         /* background-color: lemonchiffon; */
         background-image: url('./assets/background.jpg');
-        background-size: auto;
+        background-size: contain;
         background-position: center;
-        background-repeat: round;
+        background-repeat: no-repeat;
         height: 100%;
         width: 100%;
     
