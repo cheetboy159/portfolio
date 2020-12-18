@@ -1,75 +1,57 @@
 /* poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+body{
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    Z-index: -1;
+    width: 100%;
+}
+
+.bg-color{
+    background-color: #364E60 ;   
+}
+
+h1, p{
+        color:white;
+        font-family: sans-serif;
+
+    }
+
+
+
+
+
+
 /* Phone */
 @media screen and (max-width: 768px)
 {
-    body {
-        /* background-color: black; */
-        background-image: url('./assets/background.jpg');
-        /* background-image: url('./assets/background.jpg'); */
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 800px;
-        z-index: -1;
-        width: 100%;
-      
-    }
-    .bg-color{
-        background-color: #364E60 ;
-       
-    }
-    /*  */
-    h1, p{
-        color:white;
-        /* margin-left: 60px; */
-    
-    }
     h1{
-        font-size: 50px;
-        padding-bottom: 20px;
-    }
-    h2{
-        font-size: 20px !important; 
-        color:rgb(64, 71, 83) !important;
-        margin-left: 10px;
-    }
-    p{
-        
+            font-size: 50px;
+            padding-bottom: 20px;
+        }
+        h2{
+            font-size: 20px !important; 
+            color:rgb(64, 71, 83) !important;
+            margin-left: 10px;
+        }
+        p{            
         font-size: 15px;
-    }
-    a{
-        color:white !important;
-        margin-left: 10px;
-        font-size: 15px !important;
-        padding-left: 0px;
-
-    }
-    
+        }
+        a{
+            color:white !important;
+            margin-left: 10px;
+            font-size: 15px !important;
+            padding-left: 0px;
+        }  
 }
+
 /* tablet */
 @media screen and (min-width: 768px){
-    body {
-        /* background-color: lawngreen; */
-        background-image: url('./assets/background.jpg');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 1580px;
-        width: 100%;
-        /* padding-bottom: 0px; */
-        
-    
-    }
-    .bg-color{
-        background-color: #364E60 ;
-       
-    }
     /*  */
     h1, p{
-        color:white;
-        /* margin-left: 60px; */
-    
+        color:white;  
     }
     h1{
         font-size: 300px;
@@ -92,27 +74,7 @@
 }
 /* full page */
 @media screen and (min-width: 1680px){
-    body {
-        /* background-color: lemonchiffon; */
-        background-image: url('./assets/background.jpg');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100%;
-        width: 100%;
-    
-    }
-    .bg-color{
-        background-color: #364E60 ;
-       
-    }
     /*  */
-    h1, p{
-        color:rgb(255, 255, 255);
-        font-family: sans-serif;
-        /* margin-left: 60px; */
-    
-    }
     h1{
         font-size: 150px;
         padding-bottom: 70px;
@@ -130,9 +92,5 @@
         color:white !important;
         margin-left: 50px;
         font-size: 40px !important;
-    }
-    
+    }    
 }
-/* footer{
-    float: bottom;
-} */
