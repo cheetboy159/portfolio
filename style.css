@@ -1,27 +1,26 @@
 /* poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* main styles */
 body{
     background-image: url('./assets/background.jpg');
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     Z-index: -1;
-    width: 100%;
+    /* height: 100% !important; */
+    /* width: 100%; */
 }
 
 .bg-color{
     background-color: #364E60 ;   
 }
 
-h1, p{
-        color:white;
-        font-family: sans-serif;
+h1, p, a, h2{
+    color:white !important; 
+    font-family: 'Poppins' sans-serif;
 
-    }
-
-
-
-
+}
 
 
 /* Phone */
@@ -33,14 +32,12 @@ h1, p{
         }
         h2{
             font-size: 20px !important; 
-            color:rgb(64, 71, 83) !important;
             margin-left: 10px;
         }
         p{            
         font-size: 15px;
         }
         a{
-            color:white !important;
             margin-left: 10px;
             font-size: 15px !important;
             padding-left: 0px;
@@ -50,23 +47,18 @@ h1, p{
 /* tablet */
 @media screen and (min-width: 768px){
     /*  */
-    h1, p{
-        color:white;  
-    }
     h1{
-        font-size: 300px;
+        font-size: 100px;
         padding-bottom: 70px;
     }
     h2{
         font-size: 45px !important; 
-        color:white !important;
         margin-left: 30px;
     }
     p{
         font-size: 30px;
     }
     a{
-        color:white !important;
         margin-left: 50px;
         font-size: 40px !important;
     }
@@ -81,15 +73,12 @@ h1, p{
     }
     h2{
         font-size: 45px !important; 
-        color:rgb(102, 138, 149) !important;
         margin-left: 30px;
-        font-family: 'Poppins' ;
     }
     p{
         font-size: 30px;
     }
     a{
-        color:white !important;
         margin-left: 50px;
         font-size: 40px !important;
     }    
