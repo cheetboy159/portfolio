@@ -30,13 +30,12 @@ h3{
     padding:30px;
     list-style: none;
 }
-figure, .code-refactor{
+.col-4,img, .code-refactor{
     width:fit-content;
-    /* height:auto; */
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 50px;
-    width: 150px;
+    height:auto;
+    border-radius: 20px;
+    width: 200px;
+    height:150px;
 }
 
 
