@@ -4,10 +4,11 @@
 /* main styles */
 body{
     background-image: url('./assets/background.jpg');
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     Z-index: -1;
+    background-color: #364E60;
     /* height: 100% !important; */
     /* width: 100%; */
 }
@@ -20,6 +21,9 @@ h1, p, a, h2{
     color:white !important; 
     font-family: 'Poppins' sans-serif;
 
+}
+.row{
+    padding-bottom: 150px;
 }
 
 
