@@ -2,7 +2,7 @@
 
 ## Description 
 
-In this assignment, we created our first portfolio page. One of the most challenging criteria's for this assignment was to make sure that it is a responsive site, meaning that the site will adapt to screen size. Through a whole bunch of trial and error, and a lot of research as well as looking over course work I can finally say I have reached a satisfying point in order for me to submit it.
+In this assignment, I updated my portfolio page. Included are some of the projects that I have worked on in order to showcase some of the skills I have aquired over the past few months. I have also included some information about myself and included my resume
 
 ---
 
