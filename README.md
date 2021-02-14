@@ -20,7 +20,8 @@ There should be no instillation involved. The link provided should take you stra
 If you follow the provided link in the installation section, it will take straight to my Portfolio site. The links in the navigation section will take you to diffrent pages on the site.
 
 ![](./assets/portfolioHome.jpg)
-
+![](./assets/Portfolio.JPG)
+![](./assets/contact.JPG)
 
 ## License
 
